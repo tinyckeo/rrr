@@ -1,0 +1,162 @@
+{
+  "scenarios": [
+    {
+      "id": "scenario-1",
+      "name": "開始吃副食品",
+      "ageRange": "4-6個月",
+      "description": "寶寶第一次嘗試副食品，開啟美味探險旅程",
+      "heroImage": "scenario-1-hero.jpg",
+      "story": "當寶寶滿4-6個月時，是時候開始引入副食品了。這個階段的寶寶需要溫和、易消化的食物，以及安全、舒適的進食工具。貝親精心設計的產品，幫助寶寶安心享受每一口營養。",
+      "productIds": ["prod-1", "prod-2", "prod-3"]
+    },
+    {
+      "id": "scenario-2",
+      "name": "學習自主進食",
+      "ageRange": "9-12個月",
+      "description": "寶寶開始用小手握著餐具，學習獨立進食的樂趣",
+      "heroImage": "scenario-2-hero.jpg",
+      "story": "9-12個月的寶寶開始展現獨立性，想要自己拿著餐具進食。這個階段需要設計友善的餐具，幫助寶寶練習抓握和自主進食的技能。貝親的練習餐具系列，陪伴寶寶每一步成長。",
+      "productIds": ["prod-4", "prod-5", "prod-6", "prod-7"]
+    },
+    {
+      "id": "scenario-3",
+      "name": "外出用餐",
+      "ageRange": "1-2歲",
+      "description": "帶著寶寶外出用餐，享受家庭時光的便利好幫手",
+      "heroImage": "scenario-3-hero.jpg",
+      "story": "1-2歲的寶寶已經能吃大部分食物，但外出用餐需要更多準備。貝親的外出用餐系列產品，讓媽媽能輕鬆應對各種用餐場景，寶寶也能安心享受美食。",
+      "productIds": ["prod-8", "prod-9", "prod-10"]
+    },
+    {
+      "id": "scenario-4",
+      "name": "營養補給",
+      "ageRange": "全階段",
+      "description": "精心準備營養均衡的副食品，守護寶寶健康成長",
+      "heroImage": "scenario-4-hero.jpg",
+      "story": "無論寶寶處於哪個成長階段，營養均衡都是最重要的。貝親的副食品調理工具幫助父母輕鬆準備新鮮、營養的副食品，讓寶寶吃得健康、媽媽更安心。",
+      "productIds": ["prod-2", "prod-11", "prod-12"]
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "軟質安全湯匙＜副食品用＞",
+      "price": 90,
+      "ageRange": "5-6個月起",
+      "image": "soft-spoon-baby-food.jpg",
+      "description": "採用軟質材料設計，不會傷害寶寶嬌嫩的牙齦和口腔。溫和的材質適合寶寶第一次接觸副食品。",
+      "features": ["軟質安全材料", "不傷牙齦", "易於清潔", "適合初期副食品"],
+      "scenarios": ["scenario-1"]
+    },
+    {
+      "id": "prod-2",
+      "name": "副食品調理器皿",
+      "price": 900,
+      "ageRange": "4個月起",
+      "image": "food-maker.jpg",
+      "description": "一體式副食品調理工具，包含多種功能，幫助父母輕鬆準備新鮮副食品。",
+      "features": ["多功能設計", "安全無毒", "易於清潔", "附送多種配件"],
+      "scenarios": ["scenario-1", "scenario-4"]
+    },
+    {
+      "id": "prod-3",
+      "name": "拋棄式圍兜10入＜小熊盛宴＞",
+      "price": 195,
+      "ageRange": "新生兒起",
+      "image": "disposable-bib.jpg",
+      "description": "可愛的小熊圖案設計，柔軟吸水材質，外出或在家都方便使用。",
+      "features": ["可愛圖案", "吸水材質", "方便拋棄", "10入組合"],
+      "scenarios": ["scenario-1"]
+    },
+    {
+      "id": "prod-4",
+      "name": "寶寶練習用湯匙、叉子＜9個月起/盒裝＞",
+      "price": 300,
+      "ageRange": "9個月起",
+      "image": "training-spoon-fork-9m.jpg",
+      "description": "特別設計的練習餐具，幫助寶寶學習握持和自主進食。符合人體工學的握把設計。",
+      "features": ["人體工學設計", "易於握持", "安全無毒", "盒裝收納"],
+      "scenarios": ["scenario-2"]
+    },
+    {
+      "id": "prod-5",
+      "name": "寶寶練習用湯匙、叉子＜1.5歲起/盒裝＞",
+      "price": 400,
+      "ageRange": "1.5歲起",
+      "image": "training-spoon-fork-18m.jpg",
+      "description": "為較大寶寶設計的練習餐具，尺寸更適合1.5歲以上的寶寶使用。",
+      "features": ["適合大寶寶", "人體工學握把", "安全材料", "盒裝設計"],
+      "scenarios": ["scenario-2"]
+    },
+    {
+      "id": "prod-6",
+      "name": "迪士尼寬口碗＜米奇＞",
+      "price": 125,
+      "ageRange": "6個月起",
+      "image": "disney-bowl-mickey.jpg",
+      "description": "可愛的迪士尼米奇圖案，寬口設計方便盛裝副食品。",
+      "features": ["迪士尼授權", "寬口設計", "可愛圖案", "易於清潔"],
+      "scenarios": ["scenario-2"]
+    },
+    {
+      "id": "prod-7",
+      "name": "迪士尼餐盤＜米奇＆米妮＞",
+      "price": 135,
+      "ageRange": "6個月起",
+      "image": "disney-plate-mickey-minnie.jpg",
+      "description": "米奇和米妮的可愛圖案，分隔設計方便放置不同食物。",
+      "features": ["分隔設計", "迪士尼圖案", "安全材料", "可愛外觀"],
+      "scenarios": ["scenario-2"]
+    },
+    {
+      "id": "prod-8",
+      "name": "迪士尼拋棄式圍兜＜米奇米妮＞",
+      "price": 195,
+      "ageRange": "新生兒起",
+      "image": "disney-bib-mickey-minnie.jpg",
+      "description": "迪士尼經典角色圖案，外出用餐的必備好物。",
+      "features": ["迪士尼授權", "吸水材質", "方便拋棄", "可愛圖案"],
+      "scenarios": ["scenario-3"]
+    },
+    {
+      "id": "prod-9",
+      "name": "貝親副食品冰磚盒＜30・50ml＞",
+      "price": 140,
+      "ageRange": "4個月起",
+      "image": "ice-cube-box-large.jpg",
+      "description": "方便的冰磚盒設計，適合儲存副食品。30ml和50ml的規格適合不同用量。",
+      "features": ["雙規格", "易於取出", "堆疊設計", "冷凍友善"],
+      "scenarios": ["scenario-3", "scenario-4"]
+    },
+    {
+      "id": "prod-10",
+      "name": "叉匙果汁瓶＜120ml＞",
+      "price": 160,
+      "ageRange": "6個月起",
+      "image": "fork-spoon-juice-bottle.jpg",
+      "description": "結合叉匙和果汁瓶功能，外出用餐時一物多用。",
+      "features": ["多功能設計", "120ml容量", "方便攜帶", "易於清潔"],
+      "scenarios": ["scenario-3"]
+    },
+    {
+      "id": "prod-11",
+      "name": "貝親副食品冰磚盒＜15・25ml＞",
+      "price": 125,
+      "ageRange": "4個月起",
+      "image": "ice-cube-box-small.jpg",
+      "description": "小規格冰磚盒，適合初期副食品少量儲存。",
+      "features": ["小規格", "易於取出", "堆疊設計", "冷凍友善"],
+      "scenarios": ["scenario-4"]
+    },
+    {
+      "id": "prod-12",
+      "name": "米奇副食品湯匙＜黑＞",
+      "price": 130,
+      "ageRange": "5-6個月起",
+      "image": "mickey-baby-spoon.jpg",
+      "description": "可愛的米奇圖案湯匙，軟質材料適合初期副食品。",
+      "features": ["迪士尼圖案", "軟質材料", "安全無毒", "易於清潔"],
+      "scenarios": ["scenario-4"]
+    }
+  ]
+}
